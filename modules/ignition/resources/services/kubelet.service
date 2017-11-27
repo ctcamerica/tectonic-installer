@@ -2,7 +2,7 @@
 Description=Kubelet via Hyperkube ACI
 
 [Service]
-EnvironmentFile=/etc/kubernetes/kubelet.env
+EnvironmentFile=/etc/kubernetes/installer/kubelet.env
 Environment="RKT_RUN_ARGS=--uuid-file-save=/var/cache/kubelet-pod.uuid \
   --volume=resolv,kind=host,source=/etc/resolv.conf \
   --mount volume=resolv,target=/etc/resolv.conf \

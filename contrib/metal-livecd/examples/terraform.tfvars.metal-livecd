@@ -1,0 +1,117 @@
+tectonic_admin_email = "admin@ocp-tectonic.local"
+tectonic_admin_password_hash = ""
+tectonic_base_domain = "ocp-tectonic.local"
+tectonic_calico_network_policy = false
+tectonic_cl_channel = "stable"
+tectonic_cluster_cidr = "10.2.0.0/16"
+tectonic_cluster_name = "ocp-tectonic"
+tectonic_etcd_count = "0"
+tectonic_experimental = true
+tectonic_license_path = "/home/core/tectonic_license.txt"
+tectonic_master_count = "1"
+tectonic_metal_cl_version = "1520.8.0"
+tectonic_metal_controller_domain = "node1.example.com"
+tectonic_metal_controller_domains = ["node1.example.com"]
+tectonic_metal_controller_macs = ["c4:54:44:d3:86:9a"]
+tectonic_metal_controller_names = ["node1"]
+tectonic_metal_ingress_domain = "tectonic.exmaple.com"
+tectonic_metal_matchbox_ca = <<EOD
+-----BEGIN CERTIFICATE-----
+MIIFDTCCAvWgAwIBAgIJAPgM6y0IdR8zMA0GCSqGSIb3DQEBCwUAMBIxEDAOBgNV
+BAMMB2Zha2UtY2EwHhcNMTcxMTA4MjM0ODU5WhcNMjcxMTA2MjM0ODU5WjASMRAw
+DgYDVQQDDAdmYWtlLWNhMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA
+yoyWjO6Jop9KxOmxq0P0JVA+AIuLVpUPu2wzTTvYmGea+5tffPpA/VUBFGiNY9hv
+Lg9ZlhvVJKSEbW6VAjXFkHUHz6x0MBUCCIZMEGJuibReQ8hJtBqMrITd6nKVx1eG
++RdZr0SCL5TKxFOmK0lRikq8+dY4cMXAeRHv7BNafXcfj0MGUcDjM+GlpkjlArua
+0Gk74C8uWQp5Elb8yjWwCmzyuCZNidmsst/PvRJFYSeMhaVVy6lohrHwk/apo36E
+T5/c5UtZ728KDCCcxX8Ep967Ztfg/kK/WNTeaqD+kV5VnIx1DmY45rPrWQw7DpgO
+5hoGa92TTsSrUwrgqpJYxrG3/HA1ehR+DPek6AtyL/YBzjP10UJON0zMRhp8e/Lz
+nrSBZXRnBono30RRblto/UiX4quetsukHviwfjU31GA9GkV/ONxdYRdKZqbkC+IQ
+Ex9ATZXdxPLdRsA3J1PYgwA6m3MzPvyBQQVQMpqQjFp3jGoylcRJCCpbq9sBfZFk
+ajrrasl/RJxLThNJ7CIx3Ok88uDMbcOgs+f4KZHHMmIdGO4KoxolH9AY6L2MymXH
+VtXOSx6lzN0Q3maexXT94GaakHE4gRflS7sk8WZ9u51E+C8aNonsLxjcWPlfbCrQ
+tfOmLj6n9qYnQjhqRrRM/KDiGxGr5M6cu1mnbtJ43AMCAwEAAaNmMGQwHQYDVR0O
+BBYEFMur2ykYK/MN3AROh9s6Kl5SiAh6MB8GA1UdIwQYMBaAFMur2ykYK/MN3ARO
+h9s6Kl5SiAh6MBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMA0G
+CSqGSIb3DQEBCwUAA4ICAQAmIuvBPu/Sga86lWswgMDpqOgAzeNcF9HCDhE77nQ+
+c+2bK8niPzPTYwLs4sa94924nejeyMCPq/30Dfjol+FZMW245HOCQ+5CEX/Dlf2J
+cHbRk6aX3spOMlU3F99MyeMQstYfjPfwiQiEtmBpDhmuEe8c4J/AGaC463VAWQ6u
+7xphj2X3GNLR3cZtUqg7swaeVmLROZ1FNsHOUfRWLRX9lgPOkGJuNmNZ8olJ69LK
+awC3kzBUAdnNs+SJ1eNsm1rLGyskNIhURB593lmD/BCkFRMCJ45WAQYwX7F82qz+
+HGcveZqe4/VJa2eE+++jUPfFPnkH/Jy5G4R5rJP85J13Aj+ZCgB/WvO7IxUaAyCX
+sekyNVwPp55edpJevxs8W7az9cyQMQihHVlnVaqFO9tBlH8xz4qHhR68S6psvPvo
+mLOkMppCCsBQ2d8DLiBJTLffTSITSWLR+VljZZJsSKeIEUEma+PrOfswcu4Wj97D
+bxpEoida7TcKW0pMvhPTno4Yoap4BpKA/YsHPLr/C9mDIMXhkCy5KVXMrSJpWr1w
+RE7jd/ToHQhw0uifn0LoYTRNQITcjfPPFykGhnfsJcrTSptqSyoU+EI9kAB5hpkz
+E88hBQxLCeZfjs3q8ScIt/PqRePEfFmuE/+o4AlCTJZ+LDVFnb2ejrkVIP+ojDrB
+vA==
+-----END CERTIFICATE-----
+EOD
+tectonic_metal_matchbox_client_cert = <<EOD
+-----BEGIN CERTIFICATE-----
+MIIEYDCCAkigAwIBAgICEAEwDQYJKoZIhvcNAQELBQAwEjEQMA4GA1UEAwwHZmFr
+ZS1jYTAeFw0xNzExMDgyMzQ4NTlaFw0xODExMDgyMzQ4NTlaMBYxFDASBgNVBAMM
+C2Zha2UtY2xpZW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5p5Y
+e1YpCtOvzaeHXkPK3z9RKKbT8mnWjK0efOxaA+JOdYzj7Bgl+/osWpdv+UOUmxrv
+QB+buDn5ZZbTyBmfYZQujyybUbihdbUZQ4UrCKLjG5aRs46yGnQEPq/tqzKbtoi8
+vgV/YXrH2xyWjArYtFw1sSiWHYmA9L+zMTQI1sEh9fcwxuaBY3zX0jYCAHA8My8S
+S6QKVbWZtoOP6iEmjQzRkZb0gJMw6aq5CyQ+M5yV+FVL4LCHcdasmswKgwCy9D/2
+vNP6qnHMzOmJtV+kSUP1mqx2Wctc77OEjm07UNTpWwSr484iJdIHocsTe7FMbyU8
+HSUWSznutMN/t9sI7QIDAQABo4G7MIG4MAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEB
+BAQDAgeAMDMGCWCGSAGG+EIBDQQmFiRPcGVuU1NMIEdlbmVyYXRlZCBDbGllbnQg
+Q2VydGlmaWNhdGUwHQYDVR0OBBYEFCJL1qDx9R5IXP78yFscDdVVzJc3MB8GA1Ud
+IwQYMBaAFMur2ykYK/MN3AROh9s6Kl5SiAh6MA4GA1UdDwEB/wQEAwIF4DATBgNV
+HSUEDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAgEAnn1tOwgBn78+SAYm
+Oo0/gmE90eaMzx+o8LTzCuCULQnfA1vVhpblpTNdJZY4FFP/w2WS2MLrK18zbbcO
+/AhzSHQ16v0TPYpvjQ1Rs1PSonUjKTgg5MYW27Bhx7cssU9aKqSDdiST+yBMiAJf
+utVSHSeFYF6G3qksJgro3s0URTYzKHM0DOmNL1mymJ60qLGGi+YCaF79VCU++v1K
+QbdVWy4OwHahAfswgz2+jMSkmGpzfpJjupAd5EsFom/5dL2p1MFsry60WVB1tiMu
+gUsVZjsg65iRQq04wiutBbVSRVW+tM0AJPaB2SIPpIWHS718aZmx/ih8g5snNg+T
+jLrmZ6IdDkP7HtWonU5rGkhuyIBh7n/BR6iDSPqjV2uRZ1LVj3Wpun/59hys6kfW
+yGLfy/3NrqQEffOvmtn6/dncOAThjRsr5bW639Cab7eS0KXb5GqYJhnhmsSRnaZI
+P+huzDu/4is8f0YhyxS229GrMSDEkC605LvJLFOWV5VojGQqUXamDMHX6jF8O9pa
+T4EEPzn9++VZrE1+nmR/b/eiS92FGd4Jvq2jXp/5E0X+MAe0nqZ7FaRS8JN3yfHe
+4pHcFLHVfH66pUN4tTb5RkKzRasN//aOtTJJrjXmDQ5oAQPwbpz/hnlyKgbIGJNG
+bQfb3ssDDtVcv0/Sntezb6rO17M=
+-----END CERTIFICATE-----
+EOD
+tectonic_metal_matchbox_client_key = <<EOD
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA5p5Ye1YpCtOvzaeHXkPK3z9RKKbT8mnWjK0efOxaA+JOdYzj
+7Bgl+/osWpdv+UOUmxrvQB+buDn5ZZbTyBmfYZQujyybUbihdbUZQ4UrCKLjG5aR
+s46yGnQEPq/tqzKbtoi8vgV/YXrH2xyWjArYtFw1sSiWHYmA9L+zMTQI1sEh9fcw
+xuaBY3zX0jYCAHA8My8SS6QKVbWZtoOP6iEmjQzRkZb0gJMw6aq5CyQ+M5yV+FVL
+4LCHcdasmswKgwCy9D/2vNP6qnHMzOmJtV+kSUP1mqx2Wctc77OEjm07UNTpWwSr
+484iJdIHocsTe7FMbyU8HSUWSznutMN/t9sI7QIDAQABAoIBAEI0ZvZRT8r55lhF
+pcjb8VuRk7z115aZ56vO7xexyk2fJCL+5VebvxvNP/ppyw1l5z13yANCj7OdgQk2
++WlSYbzji1Iy3gvh0wg1iyElE6uRB12eJgnEB0Es2SMd4j7pcmY+buCmN2FGnCU8
+2cMuQfPVHNzU5/NmzAx3E/wmEfuEPrVaBSuS1RuiZFaTwmratbGlfW+WLX4+Fq+a
+8hApc6U6Qr+aj1UQ4RWronWt+DS/zywjVVkOoEZJehtZl9jYjdjAJBLIoIsGp/sN
+Zuy2N70a7UPeA7egBOTKEILsutSjVLseJd46L01POkG5RCGjc2cgb4NH3nK9s3dn
+3816y4kCgYEA9bysAqntlITkcZB5kqSXN1BOVcW010CLrYMyIPZHxBuAZY/GJAXo
+gNPBah/Nw1McsDyaTNX/W3WiqAXNSUNGuC5wnblQL/UCwnKBVMY4zrXc4+Ef+DNF
+aPis5KduwRvMzu1SBvz4Eyi1h0SyOi6z0rDL0Q8zJWBbRzdWSe17lJsCgYEA8EAI
+Y/KSwWcbPmAa9k21XJBuZYiGYnTFfb5wn/oIhXxTkpkbQi70hEqIc+KKu2Qa73MJ
+G1a6TCqpFhG4TzClA/r8YBOknu0tr7w4xgJgVLNXsDv3jrOMczSf9OCi6AX6Ecuu
+qFNWNvIHMu1yB8UCMlOlcdydazU3O3ah0zsjfRcCgYA2sBNz0E9wQxb38xgrO3fv
+tm6IhiRV1yZ+qfjo/wY/rYMolxOYhrwUl4uuy38mXgO/cO1B9koLF6XoUMo76L3/
+VU54u3oOAi/oCEWiES8pSa3sBPjxaq+iydzoUh7C2SX+UzBzH68xzFiBzxb+/c/F
+LtVdJE3UnpoRwk3wy+o5ywKBgCoIae9inz5rFZ8iHVV+Xv6k3kuxSSGsoGjRis7S
+Ze9EwzJgyx4XLPyANcNgnTkP2I6QJ8W6tLlitVaBHyfrsNMzdDgy95g+ksGuQpiS
+DdyDzBGvTC6RRz9Ys6uaKaZCdW/rnNEiU3ElgxDr7glh9HJtpAJ5wKjjFJi4trNI
+I3tdAoGBALhn7I0dC9AFWx7ygGw3p/VvN5O/cyr2q9a6YecybDGk06lJUM6pLJy5
+BS9JN5uhn6EwJC15JVXDubo4JrbirGSQ2sH8QvOdqlI8LFbcsHyb1nCZ9NOZPJBL
+ga5Vt68CqPU8FpGMNzTkGB7sORr5k7MDh50gfEKe7ipERhm1UBhf
+-----END RSA PRIVATE KEY-----
+EOD
+tectonic_metal_matchbox_http_url = "http://matchbox.example.com:8080"
+tectonic_metal_matchbox_rpc_endpoint = "matchbox.example.com:8081"
+tectonic_metal_worker_domains = ["node2.example.com", "node3.example.com"]
+tectonic_metal_worker_macs = ["c4:54:44:d3:86:06", "c4:54:44:d3:85:78"]
+tectonic_metal_worker_names = ["node2", "node3"]
+tectonic_pull_secret_path = "/home/core/tectonic_pull_secret.json"
+tectonic_service_cidr = "10.3.0.0/16"
+tectonic_ssh_authorized_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCT0UlLHG5FcTYIibDp1y2ksKuxYNEdpL+B7EOTWVDCwe7WSvlsWTr/PN6beyVU/BfzGUxH6pIWp4r3bwv5cIBA/kwn3A/qUb8/SjLl+67p0DgXkstFjwWQNSdnc/UY3ttHBX2UN3rJyeOlrNU4BV7D7548mIx1pEWS6e5rfgwJk2kwZ2eY0nFKHVrh/YTcAUKtHMzbirOcIwTZKlGQfhPnOG8jemAYNV1DcfoLiFKu/TNkh9Yk5reMIOlxJeNzKGwNkhYFJXoTnuRhPkd6jdRZRh5FyHp54QnJYqHqE83KuA01jE7B//NIk8T8kzPIrRBH7zwXzaL16yME1Cao3JSr core@localhost"
+tectonic_stats_url = "https://stats-collector.tectonic.com"
+tectonic_vanilla_k8s = false
+tectonic_worker_count = "3"
